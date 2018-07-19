@@ -1,0 +1,56 @@
+body {
+  background-image: url('../images/background-crystals.jpg');
+  background-size: cover;
+}
+
+.banner-crystals {
+  width: 100%;
+  text-align: center;
+}
+
+.banner-crystals img {
+  width: 650px;
+  height: auto;
+}
+
+.instructions {
+  font-family: 'Philosopher', sans-serif;
+  width: 300px;
+  border: 25px solid #0000;
+  padding: 25px;
+  margin: 25px;
+}
+.crystalButton {
+  height: 100px;
+}
+
+.random-number {
+  float: right;
+  height: 125px;
+  width: 235px;
+  border: 2px solid #ccc;
+  text-align: center;
+}
+
+#overallScore {
+  height: 125px;
+  margin-left: 10px;
+  border: 2px solid #ccc;
+}
+
+#crystals {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#pointsToMatch, #totalScore {
+  font-size: 36px;
+  color: red;
+  font-weight: bold;
+}
+
+.total-score-container {
+  border: 2px solid #ccc;
+  text-align: center;
+  margin-top: 20px;
+}
